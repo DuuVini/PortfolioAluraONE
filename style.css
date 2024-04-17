@@ -1,0 +1,159 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+.background-grey{
+    background-color: #E5E5E5;
+}
+.background-blue{
+    background-color: #EAF2FD;
+}
+
+header{
+    height: 50px;
+}
+
+nav{
+    width: 1136px;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cabecalho__itens{
+    height: 50px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.cabecalho__itens a{
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho__itens a:hover{
+    border-bottom: 2px solid black;
+    margin-top: 2px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.email{
+    font-weight: bold;
+}
+
+.hero{
+    width: 1136px;
+    margin: auto;
+    height: 368px;
+    padding-top: 30px;
+    display: flex;
+}
+
+.hero__text{
+    width: 751px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero__content{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.hero__link{
+    padding-top: 50px;
+}
+.hero__link a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 15px;
+    border: 1px solid #333;
+    padding: 4px;
+    border-radius: 4px;
+
+}
+
+.hero__link a:hover{
+    background-color: #EAF2FD;
+}
+
+
+
+
+.hero__photo{
+    width: 320px;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 360px;
+}
+
+.sobre-mim__section{
+    width: 1136px;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre-mim__title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.sobre-mim__content{
+    margin-top: 15px;
+    width: 751px;
+    line-height: 20px;
+    
+}
+
+.skill__section{
+    width: 1136px;
+    margin: auto;
+    height: 300px;
+}
+.skill__title{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.skill__names{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.skill__square{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content:start;
+    align-items: end;
+    font-weight: bold;
+    font-size: 13px;
+}
